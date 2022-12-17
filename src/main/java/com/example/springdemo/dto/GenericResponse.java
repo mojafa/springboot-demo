@@ -1,2 +1,9 @@
-package com.example.springdemo.dto;public class GenericResponse {
-}
+package com.example.springdemo.dto;
+
+public record GenericResponse (
+        String message,
+
+        String name
+)
+{}
+
